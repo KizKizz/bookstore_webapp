@@ -1,6 +1,6 @@
 {
-    "name": "bookstore_project",
-    "short_name": "bookstore_project",
+    "name": "Antique Publications Bookstore",
+    "short_name": "Antique Publications Bookstore",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
