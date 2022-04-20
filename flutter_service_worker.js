@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "345f471dbf7dd65a5df6e0689300a21b",
+  "assets/AssetManifest.json": "cb1b2972e937da4957c4488789da75c9",
 "assets/assets/jsondatabase/author_data.json": "5a50824cd43306119bae2383fe49f955",
 "assets/assets/jsondatabase/book_data.json": "1913b6904d23c8bce2227e666417fafe",
 "assets/assets/jsondatabase/customer_data.json": "ab5028895bd2a95191327b879e91873e",
@@ -12,9 +12,10 @@ const RESOURCES = {
 "assets/assets/jsondatabase/sales_record_data.json": "78d3fab8f2aa80898984eb788e90ebbf",
 "assets/assets/Logo/logo_dark.png": "d210c4dc9c679d70e04bfd8646795133",
 "assets/assets/Logo/logo_light.png": "4de5ef5a479d7c9cce8255a3c83b05b2",
+"assets/assets/Logo/logo_only.png": "a22466ae71d45f7e79b1a45bb7ba2938",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "61f65d2458d61e9a78dbd92d8de6072b",
+"assets/NOTICES": "faa61c9bb2007002aac4c301b96db73a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
@@ -28,9 +29,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "dd52ebcd668814eafce400a7e1a9517c",
 "icons/Icon-maskable-192.png": "f5f73fef72e65a4542fa881499a6a523",
 "icons/Icon-maskable-512.png": "dd52ebcd668814eafce400a7e1a9517c",
-"index.html": "474c807626de25c87e358b51f332df29",
-"/": "474c807626de25c87e358b51f332df29",
-"main.dart.js": "2099d3dcda7ab6775ab2868bd7fc146a",
+"index.html": "ae5f4bf8e420de06c5277e899a8d04b7",
+"/": "ae5f4bf8e420de06c5277e899a8d04b7",
+"main.dart.js": "5f5d3084f5b2e53e8c0b2a5de81b0e5d",
 "manifest.json": "0348b85c6fac00779e8fbd0362bbf158",
 "version.json": "5744065190e3748f155b1400e434dc82"
 };
