@@ -3,7 +3,34 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "cb1b2972e937da4957c4488789da75c9",
+  ".git/config": "df1d8e688bd7646a8f8c90431275dacf",
+".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
+".git/FETCH_HEAD": "753c20a3dfcee26a8808c41e9c5da6b9",
+".git/HEAD": "cf7dd3ce51958c5f13fece957cc417fb",
+".git/hooks/applypatch-msg.sample": "ce562e08d8098926a3862fc6e7905199",
+".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
+".git/hooks/fsmonitor-watchman.sample": "ea587b0fae70333bce92257152996e70",
+".git/hooks/post-update.sample": "2b7ea5cee3c49ff53d41e00785eb974c",
+".git/hooks/pre-applypatch.sample": "054f9ffb8bfe04a599751cc757226dda",
+".git/hooks/pre-commit.sample": "305eadbbcd6f6d2567e033ad12aabbc4",
+".git/hooks/pre-merge-commit.sample": "39cb268e2a85d436b9eb6f47614c3cbc",
+".git/hooks/pre-push.sample": "2c642152299a94e05ea26eae11993b13",
+".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
+".git/hooks/pre-receive.sample": "2ad18ec82c20af7b5926ed9cea6aeedd",
+".git/hooks/prepare-commit-msg.sample": "2b5c047bdb474555e1787db32b2d2fc5",
+".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
+".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
+".git/index": "28aa858d2a2a6e3bb237f9e410422ce7",
+".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
+".git/logs/HEAD": "97745073e10a65fc7a090316ccbb55a3",
+".git/logs/refs/heads/main": "97745073e10a65fc7a090316ccbb55a3",
+".git/logs/refs/remotes/origin/HEAD": "6d144a81d7bd58233db0007b51bf213e",
+".git/objects/pack/pack-62b3e22c962d1debc015ef215648e635e930f147.idx": "b74e08482c25ce07e39185c34ca6112e",
+".git/objects/pack/pack-62b3e22c962d1debc015ef215648e635e930f147.pack": "4d0f49bc1e6d71a535257e23604321f4",
+".git/packed-refs": "e2a4804b5d5c896072a7ae600acceb29",
+".git/refs/heads/main": "8a91b4c3af403b6bf18cb181e27b7960",
+".git/refs/remotes/origin/HEAD": "98b16e0b650190870f1b40bc8f4aec4e",
+"assets/AssetManifest.json": "cb1b2972e937da4957c4488789da75c9",
 "assets/assets/jsondatabase/author_data.json": "2f79230df5f118b3c7bdcaa136394d40",
 "assets/assets/jsondatabase/book_data.json": "71e8593443e16531bd5fdda51e5f4c51",
 "assets/assets/jsondatabase/customer_data.json": "ab662055049d7ffff91db0a555da2f9f",
@@ -14,27 +41,28 @@ const RESOURCES = {
 "assets/assets/Logo/logo_light.png": "4de5ef5a479d7c9cce8255a3c83b05b2",
 "assets/assets/Logo/logo_only.png": "a22466ae71d45f7e79b1a45bb7ba2938",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "c6bf0a22bbb79837a5cfea5286bb0dd8",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/NOTICES": "b6ea4c08e777a258a111dba76b6054ec",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "99f29024aee8f4672a47cc3a81b9b84a",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "48ce1bb8a42776caa951cb782d277730",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d8e9b6203ce2657c991f0b339ccb3a6d",
+"canvaskit/canvaskit.js": "3725a0811e16affbef87d783520e61d4",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.js": "491df729e7b715d86fc167feabea031a",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"favicon.png": "0d640e5b07f6f3d6c1af6ed3760f8810",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-"icons/Icon-192.png": "f5f73fef72e65a4542fa881499a6a523",
-"icons/Icon-512.png": "dd52ebcd668814eafce400a7e1a9517c",
-"icons/Icon-maskable-192.png": "f5f73fef72e65a4542fa881499a6a523",
-"icons/Icon-maskable-512.png": "dd52ebcd668814eafce400a7e1a9517c",
-"index.html": "99f87f63c472f04c0e492bdd45247866",
-"/": "99f87f63c472f04c0e492bdd45247866",
-"main.dart.js": "7c40e9859ddce5495d485a36b19a842f",
-"manifest.json": "0348b85c6fac00779e8fbd0362bbf158",
-"version.json": "9019baebdb2c138be314a4b2a980e7bf"
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "2556c7a0a389efe39748bf8869544837",
+"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+"index.html": "85127f36ff5fc9345cd43527fe74d12f",
+"/": "85127f36ff5fc9345cd43527fe74d12f",
+"main.dart.js": "f4e5c9ab28b70e5fa058d9ecac2ead16",
+"manifest.json": "6c84e01df516503882ef20ef518883d8",
+"README.md": "a0dd2a578747ce8b37213820fef2dca5",
+"version.json": "7be7591da0faf85f3eb3bf127953de09"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -42,7 +70,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -141,9 +168,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
